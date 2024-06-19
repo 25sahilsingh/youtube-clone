@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: black;
 }
 html,
 body {
@@ -21,15 +22,15 @@ body {
 }
 #nav {
   display: flex;
-  height: 100px;
   width: 100%;
-  background: green;
+  margin: 1px;
+  background: black;
   align-items: center;
   justify-content: space-between;
 }
 #name {
   font-size: 35px;
-  color: black;
+  color: white;
   font-weight: 900;
 }
 #first_nav {
@@ -53,6 +54,7 @@ body {
   background-color: black;
   font-size: large;
   border: none;
+  width: 500px;
 }
 #microphone {
   display: flex;
