@@ -26,16 +26,15 @@ body {
   background: green;
   align-items: center;
 }
-#home {
+#name {
+  font-size: 35px;
+  color: black;
+  font-weight: 900;
+}
+#first {
   display: flex;
   align-items: center;
 }
-#name {
-  font-size: 35px;
-  color: white;
-  font-weight: 900;
-}
-
 #search_div {
   display: flex;
   background-color: black;
