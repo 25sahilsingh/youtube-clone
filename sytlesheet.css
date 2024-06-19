@@ -46,6 +46,7 @@ body {
   background-color: black;
   height: 50px;
   border-radius: 25px;
+  border: 1px solid white;
   padding-left: 10px;
   padding-right: 10px;
   align-items: center;
@@ -65,4 +66,7 @@ body {
   height: 40px;
   border-radius: 20px;
   margin-left: 5px;
+}
+#last_nav {
+  display: flex;
 }
