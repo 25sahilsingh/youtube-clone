@@ -25,13 +25,18 @@ body {
   width: 100%;
   background: green;
   align-items: center;
+  justify-content: space-between;
 }
 #name {
   font-size: 35px;
   color: black;
   font-weight: 900;
 }
-#first {
+#first_nav {
+  display: flex;
+  align-items: center;
+}
+#middle_nav {
   display: flex;
   align-items: center;
 }
@@ -57,4 +62,5 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 20px;
+  margin-left: 5px;
 }
