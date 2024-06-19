@@ -15,6 +15,7 @@ body {
 }
 #sidepannel {
   color: grey;
+  padding-right: 20px;
 }
 #logo {
   color: red;
@@ -23,7 +24,7 @@ body {
 #nav {
   display: flex;
   width: 100%;
-  margin: 1px;
+  margin: 10px;
   margin-top: 10px;
   background: black;
   align-items: center;
@@ -42,6 +43,13 @@ body {
   display: flex;
   align-items: center;
 }
+#last_nav {
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+  column-gap: 10px;
+}
+
 #search_div {
   display: flex;
   background-color: black;
@@ -67,7 +75,4 @@ body {
   height: 40px;
   border-radius: 20px;
   margin-left: 5px;
-}
-#last_nav {
-  display: flex;
 }
