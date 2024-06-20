@@ -7,24 +7,24 @@ html,
 body {
   height: 100%;
   width: 100%;
-  /* background-color: black; */
+  background-color: black;
 }
 .icon {
   color: white;
   font-size: x-large;
 }
 #sidepannel {
-  color: grey;
-  padding-right: 20px;
+  font-weight: 600;
 }
 #logo {
+  padding-left: 20px;
   color: red;
   font-size: xx-large;
 }
 #nav {
   display: flex;
   width: 100%;
-  margin-top: 10px;
+  margin: 10px 0px 10px 0px;
   background: black;
   align-items: center;
   justify-content: space-between;
@@ -68,6 +68,9 @@ body {
   border-color: black;
   width: 600px;
 }
+#search_input:focus {
+  outline: none;
+}
 #microphone {
   display: flex;
   align-items: center;
@@ -94,4 +97,26 @@ ul {
 #you {
   margin: 15px 5px;
   font-weight: 5 00;
+}
+#sidebar ul li:hover {
+  background-color: rgb(150, 150, 150);
+}
+#sidepannelicon_div,
+#upload_nav,
+#notify_nav,
+#profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+}
+#sidepannelicon_div:hover,
+#upload_nav:hover,
+#notify_nav:hover {
+  background-color: rgb(150, 150, 150);
+}
+#microphone:hover {
+  background-color: rgb(150, 150, 150);
 }
