@@ -1,5 +1,5 @@
 let sidebar = document.getElementById("sidebar");
 let sidepannel = document.getElementById("sidepannel");
-function changepannel() {
+sidepannel.addEventListener("click", () => {
   sidebar.classList.toggle("display");
-}
+});
