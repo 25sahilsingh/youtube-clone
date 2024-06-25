@@ -12,12 +12,21 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <style>
+      .display {
+        display: none;
+      }
+    </style>
   </head>
   <body>
     <div id="nav">
       <div id="first_nav">
         <div id="sidepannelicon_div">
-          <i id="sidepannel" class="fa-solid fa-bars icon"></i>
+          <i
+            onclick="changepannel()"
+            id="sidepannel"
+            class="fa-solid fa-bars icon"
+          ></i>
         </div>
         <i id="logo" class="fa-brands fa-youtube icon"></i>
         <p id="name">Youtube</p>
@@ -39,7 +48,7 @@
         <i id="profile" class="fa-solid fa-user icon"></i>
       </div>
     </div>
-    <div id="sidebar">
+    <div id="sidebar" class="display">
       <ul>
         <li><i class="fa-solid fa-house icon"></i>Home</li>
         <li><i class="fa-solid fa-leaf icon"></i>Shorts</li>
@@ -55,5 +64,15 @@
         <li><i class="fa-regular fa-thumbs-up icon"></i>Liked videos</li>
       </ul>
     </div>
+    <div id="mini_sidebar">
+      <ul>
+        <li><i class="fa-solid fa-house icon"></i></li>
+        <li><i class="fa-solid fa-leaf icon"></i></li>
+        <li><i class="fa-solid fa-layer-group icon"></i></li>
+        <li><i class="fa-solid fa-child icon"></i></li>
+        <li></li>
+      </ul>
+    </div>
+    <script src="main.js"></script>
   </body>
 </html>
